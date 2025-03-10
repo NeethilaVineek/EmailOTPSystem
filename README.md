@@ -14,9 +14,9 @@ The Email OTP System is a .NET 8 application written in C# that allows users to 
 
 ## Getting Started
 
-### Clone the Repository
-### Build the Solution
-### Run the Application
+- Clone the Repository
+- Build the Solution
+- Run the Application
 
 ## Project Structure
 - `EmailOTPSystem/Program.cs`: The main entry point of the application.
