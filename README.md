@@ -49,8 +49,8 @@ To run the unit tests, follow these steps:
 
 The unit tests are located in the `EmailOTPSystem.Tests` project:
 
-- `EmailOTPSystem.Tests/EmailOTPModuleTests.cs`: Contains tests for OTP generation and verification.
-- `EmailOTPSystem.Tests/EmailHelperTests.cs`: Contains tests for email sending functionality.
+- `EmailOTPSystem.Tests/OTPEmailGeneration_Tests.cs`: Contains tests for validating Email Address and OTP generation.
+- `EmailOTPSystem.Tests/CheckOtp_Tests.cs`: Contains tests for OTP verification.
 
 ## Contributing
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
