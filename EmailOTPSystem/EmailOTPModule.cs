@@ -1,10 +1,8 @@
 ﻿using EmailOTPSystem.Constants;
 using EmailOTPSystem.Models;
-using System;
 using System.Net.Mail;
 using System.Security.Cryptography;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace EmailOTPSystem
 {
@@ -31,7 +29,6 @@ namespace EmailOTPSystem
 
             GenerateOtp();
             otpGenerationTime = DateTime.Now;
-
             return SendEmail(userEmail);
         }
         public void GenerateOtp()
